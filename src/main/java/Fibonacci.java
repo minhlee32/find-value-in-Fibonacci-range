@@ -10,7 +10,7 @@ public class Fibonacci {
         int result = findValue(index);
         System.out.println("The value at position " + index + " in the Fibonacci range is " + result);
     }
-    private static int findValue(int index) {
+    public static int findValue(int index) {
         if(index<3) return 1;
 
         return findValue(index - 2) + findValue(index - 1);
